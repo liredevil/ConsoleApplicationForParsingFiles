@@ -17,7 +17,7 @@ namespace IHSMarkitTask
             }
             else
             {
-                Console.WriteLine("Директория не сущесвует " + dirName);
+                Console.WriteLine("Directory does not exist:" + dirName);
             }
         }
 

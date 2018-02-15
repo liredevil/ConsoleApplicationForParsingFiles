@@ -43,7 +43,7 @@ namespace IHSMarkitTask
                         }
                         catch
                         {
-                            Console.WriteLine("Неверный формат строки:" + line);
+                            Console.WriteLine("Invalid string format:" + line);
                             Process.GetCurrentProcess().Kill();
                         }
                     }

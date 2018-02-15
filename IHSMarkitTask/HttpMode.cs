@@ -25,7 +25,7 @@ namespace IHSMarkitTask
             }
             else
             {
-                Console.WriteLine("Файл не сущесвует " + pathToFileWithlistAddresse);
+                Console.WriteLine("The file does not exist:" + pathToFileWithlistAddresse);
                 Process.GetCurrentProcess().Kill();
             }
         }

@@ -33,7 +33,7 @@ namespace IHSMarkitTask
             }
             else
             {
-                Console.WriteLine("Неверный формат:" + inputMode);
+                Console.WriteLine("Wrong format:" + inputMode);
             }
 
             Console.ReadKey();
